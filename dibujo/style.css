@@ -1,0 +1,85 @@
+@charset "utf-8";
+
+
+
+
+.hero{
+	width: 100vw;
+	height: 100vh;
+	position: relative;
+	margin: 0px;
+	padding: 0px;
+}
+
+.cls-1 {
+	fill:none;
+	stroke:#000;
+}
+
+
+
+
+ .cuadro2, .cuadro3 {
+	position: relative;
+	 margin-left: 0px;
+	
+	
+}
+
+
+
+.cuadro2, .cuadro3 {
+	animation: animacioncuadros 5s  alternate ease-out;
+	
+}
+
+@keyframes animacioncuadros {
+	
+	from{
+		transform: translate(150px);
+			
+	}
+	
+	to {
+		transform: translate(0px);
+		
+	}
+	
+	
+	
+	
+}
+
+
+.cuadro {
+	position: relative;
+	transform: translate(76.2%, 0%);
+	
+}
+
+
+.cuadro {
+	animation: animacioncuadrado 5s  alternate ease-out;
+	
+}
+
+@keyframes animacioncuadrado {
+	
+	from{
+		transform: translate(0%);
+			
+	}
+	
+	to {
+		transform: translate(75%);
+		
+	}
+	
+}
+
+
+
+p {
+	font-family: "Gill Sans", "Gill Sans MT", "Myriad Pro", "DejaVu Sans Condensed", Helvetica, Arial, "sans-serif";
+	font-size: 1.2em;
+}
